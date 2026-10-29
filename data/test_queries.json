@@ -1,0 +1,525 @@
+{
+ "description": "Held-out paraphrases written separately from data/intents.json. Never used for training.",
+ "queries": [
+  {
+   "text": "hello!",
+   "intent": "greeting"
+  },
+  {
+   "text": "hi, anyone around?",
+   "intent": "greeting"
+  },
+  {
+   "text": "good day",
+   "intent": "greeting"
+  },
+  {
+   "text": "hey, what's up",
+   "intent": "greeting"
+  },
+  {
+   "text": "heyy",
+   "intent": "greeting"
+  },
+  {
+   "text": "hello hello",
+   "intent": "greeting"
+  },
+  {
+   "text": "hi bot",
+   "intent": "greeting"
+  },
+  {
+   "text": "morning!",
+   "intent": "greeting"
+  },
+  {
+   "text": "bye for now",
+   "intent": "goodbye"
+  },
+  {
+   "text": "i'll see you around",
+   "intent": "goodbye"
+  },
+  {
+   "text": "okay goodbye",
+   "intent": "goodbye"
+  },
+  {
+   "text": "im heading out",
+   "intent": "goodbye"
+  },
+  {
+   "text": "talk later",
+   "intent": "goodbye"
+  },
+  {
+   "text": "good bye",
+   "intent": "goodbye"
+  },
+  {
+   "text": "that's it, bye!",
+   "intent": "goodbye"
+  },
+  {
+   "text": "logging off",
+   "intent": "goodbye"
+  },
+  {
+   "text": "thanks so much",
+   "intent": "thanks"
+  },
+  {
+   "text": "thank you very much",
+   "intent": "thanks"
+  },
+  {
+   "text": "i really appreciate this",
+   "intent": "thanks"
+  },
+  {
+   "text": "cool thanks",
+   "intent": "thanks"
+  },
+  {
+   "text": "thankyou",
+   "intent": "thanks"
+  },
+  {
+   "text": "that was great, thanks",
+   "intent": "thanks"
+  },
+  {
+   "text": "nice, thank you",
+   "intent": "thanks"
+  },
+  {
+   "text": "thanks a ton",
+   "intent": "thanks"
+  },
+  {
+   "text": "how r u",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "how are you today my friend",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "everything good with you?",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "how is your day",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "how have things been",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "you ok?",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "hows life treating you",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "is all good with you bot",
+   "intent": "how_are_you"
+  },
+  {
+   "text": "what's your name bot",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "who created this chatbot",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "are you human or machine",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "who are you exactly",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "tell me about you",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "is this a real person",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "what do i call you",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "are you siri",
+   "intent": "bot_identity"
+  },
+  {
+   "text": "what are you capable of",
+   "intent": "capabilities"
+  },
+  {
+   "text": "can you help",
+   "intent": "capabilities"
+  },
+  {
+   "text": "what can i do here",
+   "intent": "capabilities"
+  },
+  {
+   "text": "how can you be useful to me",
+   "intent": "capabilities"
+  },
+  {
+   "text": "what topics do you cover",
+   "intent": "capabilities"
+  },
+  {
+   "text": "tell me your abilities",
+   "intent": "capabilities"
+  },
+  {
+   "text": "i need some assistance",
+   "intent": "capabilities"
+  },
+  {
+   "text": "what do you offer",
+   "intent": "capabilities"
+  },
+  {
+   "text": "what is natural language processing exactly",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "can you explain nlp to me",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "what are the uses of nlp",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "define natural language processing",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "how do machines process human language",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "what is tokenisation",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "explain what sentiment analysis is",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "why does nlp matter",
+   "intent": "nlp_definition"
+  },
+  {
+   "text": "how do you clean the text",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "explain stemming",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "what are stopwords",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "how does tf idf work",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "how is text converted into vectors",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "what steps do you apply to my input",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "what is lemmatisation",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "tell me about text preprocessing",
+   "intent": "preprocessing"
+  },
+  {
+   "text": "which python libraries does this use",
+   "intent": "libraries"
+  },
+  {
+   "text": "what is the tech stack",
+   "intent": "libraries"
+  },
+  {
+   "text": "are you using nltk",
+   "intent": "libraries"
+  },
+  {
+   "text": "do you use spacy or tensorflow",
+   "intent": "libraries"
+  },
+  {
+   "text": "what packages are required",
+   "intent": "libraries"
+  },
+  {
+   "text": "is flask used here",
+   "intent": "libraries"
+  },
+  {
+   "text": "what framework is used",
+   "intent": "libraries"
+  },
+  {
+   "text": "which libraries were used to make you",
+   "intent": "libraries"
+  },
+  {
+   "text": "how did you get trained",
+   "intent": "training"
+  },
+  {
+   "text": "what algorithm are you using",
+   "intent": "training"
+  },
+  {
+   "text": "how can i retrain the model",
+   "intent": "training"
+  },
+  {
+   "text": "explain how the model learns",
+   "intent": "training"
+  },
+  {
+   "text": "how do i add new training phrases",
+   "intent": "training"
+  },
+  {
+   "text": "which classifier do you use",
+   "intent": "training"
+  },
+  {
+   "text": "is this deep learning",
+   "intent": "training"
+  },
+  {
+   "text": "how do i teach you something new",
+   "intent": "training"
+  },
+  {
+   "text": "how does intent recognition work",
+   "intent": "intent_response"
+  },
+  {
+   "text": "what does confidence score mean",
+   "intent": "intent_response"
+  },
+  {
+   "text": "how do you pick your replies",
+   "intent": "intent_response"
+  },
+  {
+   "text": "what is the fallback",
+   "intent": "intent_response"
+  },
+  {
+   "text": "how do you know what i want",
+   "intent": "intent_response"
+  },
+  {
+   "text": "explain how this chatbot works",
+   "intent": "intent_response"
+  },
+  {
+   "text": "how do you answer questions",
+   "intent": "intent_response"
+  },
+  {
+   "text": "what happens if you don't understand me",
+   "intent": "intent_response"
+  },
+  {
+   "text": "how do i run this project",
+   "intent": "interface"
+  },
+  {
+   "text": "how can i start the server",
+   "intent": "interface"
+  },
+  {
+   "text": "which url should i open",
+   "intent": "interface"
+  },
+  {
+   "text": "is there a web ui",
+   "intent": "interface"
+  },
+  {
+   "text": "how do i launch the app",
+   "intent": "interface"
+  },
+  {
+   "text": "what command do i run to start it",
+   "intent": "interface"
+  },
+  {
+   "text": "how do i host this online",
+   "intent": "interface"
+  },
+  {
+   "text": "does it have an api",
+   "intent": "interface"
+  },
+  {
+   "text": "how accurate is this chatbot",
+   "intent": "evaluation"
+  },
+  {
+   "text": "what is the model accuracy",
+   "intent": "evaluation"
+  },
+  {
+   "text": "how do you evaluate yourself",
+   "intent": "evaluation"
+  },
+  {
+   "text": "explain the f1 metric",
+   "intent": "evaluation"
+  },
+  {
+   "text": "how can i execute the unit tests",
+   "intent": "evaluation"
+  },
+  {
+   "text": "how can we make the bot better",
+   "intent": "evaluation"
+  },
+  {
+   "text": "what are your limitations",
+   "intent": "evaluation"
+  },
+  {
+   "text": "can you make mistakes",
+   "intent": "evaluation"
+  },
+  {
+   "text": "where does the training data come from",
+   "intent": "dataset"
+  },
+  {
+   "text": "how many intents are there",
+   "intent": "dataset"
+  },
+  {
+   "text": "what does the dataset look like",
+   "intent": "dataset"
+  },
+  {
+   "text": "how do i create my own dataset",
+   "intent": "dataset"
+  },
+  {
+   "text": "in which file are the example phrases kept",
+   "intent": "dataset"
+  },
+  {
+   "text": "what is in intents.json",
+   "intent": "dataset"
+  },
+  {
+   "text": "how is the training data formatted",
+   "intent": "dataset"
+  },
+  {
+   "text": "can i add my own examples",
+   "intent": "dataset"
+  },
+  {
+   "text": "say something amusing",
+   "intent": "joke"
+  },
+  {
+   "text": "got a joke for me",
+   "intent": "joke"
+  },
+  {
+   "text": "make me laugh please",
+   "intent": "joke"
+  },
+  {
+   "text": "i want a joke",
+   "intent": "joke"
+  },
+  {
+   "text": "can you say a joke",
+   "intent": "joke"
+  },
+  {
+   "text": "another joke please",
+   "intent": "joke"
+  },
+  {
+   "text": "know any funny stuff",
+   "intent": "joke"
+  },
+  {
+   "text": "lighten my mood with a joke",
+   "intent": "joke"
+  },
+  {
+   "text": "what's the weather in delhi",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "who won the cricket match",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "what is the price of bitcoin",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "book a taxi for me",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "what is 12 plus 30",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "recommend me a good restaurant",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "what is the time now",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "tell me the latest headlines",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "how tall is mount everest",
+   "intent": "out_of_scope"
+  },
+  {
+   "text": "can you cook for me",
+   "intent": "out_of_scope"
+  }
+ ]
+}

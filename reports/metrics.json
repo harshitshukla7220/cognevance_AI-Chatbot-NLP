@@ -1,0 +1,12 @@
+{
+  "Baseline (lowercase + word TF-IDF)": {
+    "cv_accuracy": 0.6551,
+    "heldout_accuracy": 0.8308,
+    "heldout_macro_f1": 0.8355
+  },
+  "Improved (NLTK stem + word & char TF-IDF)": {
+    "cv_accuracy": 0.7719,
+    "heldout_accuracy": 0.9846,
+    "heldout_macro_f1": 0.9843
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLP Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="chat">
+  <header>
+    <h1>NLP Chatbot</h1>
+    <label class="toggle"><input type="checkbox" id="details"> Show intent &amp; confidence</label>
+  </header>
+  <section id="log" aria-live="polite"></section>
+  <div class="chips" id="chips">
+    <button>What is NLP?</button><button>How were you trained?</button>
+    <button>How accurate are you?</button><button>Tell me a joke</button>
+  </div>
+  <form id="form" autocomplete="off">
+    <input id="input" placeholder="Type a message…" maxlength="500" aria-label="Message" autofocus>
+    <button type="submit">Send</button>
+  </form>
+</main>
+<script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>

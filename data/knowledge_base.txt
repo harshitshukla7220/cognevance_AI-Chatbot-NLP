@@ -1,0 +1,26 @@
+# NLP tokenization
+Tokenization splits raw text into smaller units called tokens, usually words or sub-words. In this project NLTK's RegexpTokenizer splits the cleaned message into word tokens before stemming.
+
+# NLP stemming and lemmatization
+Stemming chops word endings to reach a root form, for example training, trained and trains all become train. Lemmatization maps words to dictionary forms using vocabulary and grammar. This project uses the NLTK Snowball stemmer because it is fast and needs no extra downloads.
+
+# NLP stop words
+Stop words are very frequent words such as the, a and of that carry little meaning for classification. This project removes only a short list of them, because words like how, what and you are essential for recognising short chatbot questions.
+
+# NLP TF-IDF features
+TF-IDF stands for term frequency inverse document frequency. It scores a word higher when it appears often in one phrase but rarely across all phrases. This project combines word n-grams with character n-grams so that small typos such as accurcy still match accuracy.
+
+# Machine learning classifier
+Intent recognition is a supervised text classification problem. A Logistic Regression model from scikit-learn learns from labelled example phrases and outputs a probability for every intent. The highest probability is the predicted intent and acts as the confidence score.
+
+# Evaluation metrics
+Accuracy is the share of correct predictions. Precision is how many predicted positives were right, recall is how many real positives were found, and F1 is their harmonic mean. A confusion matrix shows which intents are mistaken for which. Cross-validation repeats the train and test split several times for a more stable estimate.
+
+# Overfitting and generalisation
+A model overfits when it memorises its training phrases and fails on new wording. This project therefore reports accuracy on separately written paraphrases that the model never saw during training.
+
+# Fallback and retrieval
+When classifier confidence is below the threshold, the chatbot searches the knowledge base using TF-IDF cosine similarity. If a passage is similar enough it is returned together with its source title, otherwise the bot asks the user to rephrase.
+
+# Project structure
+chatbot.py holds preprocessing, training, prediction and response logic. train.py trains and saves the model. evaluate.py measures accuracy. app.py is the Flask web interface. Tests live in the tests folder.
